@@ -1,4 +1,5 @@
-FROM phusion/baseimage:0.11
+#FROM phusion/baseimage:0.11
+FROM linuxserver/docker-baseimage-alpine:latest
 
 # Set correct environment variables
 ENV DEBIAN_FRONTEND=noninteractive HOME="/root" TERM=xterm
